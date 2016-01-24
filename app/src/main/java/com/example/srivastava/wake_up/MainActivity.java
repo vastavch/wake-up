@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements GeoTask.Geo {
                     alreadyRequested = false;
                     to_modify = modifyString(to);
                     from_modify = modifyString(from);
-                    String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + from_modify + "&destinations=" + to_modify + "&mode=driving&language=fr-FR&key=AIzaSyBxMn6YvAun6ZzEgMY2bWXtfhHcpceSWdQ";
+                    String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + from_modify + "&destinations=" + to_modify + "&mode=driving&language=fr-FR&key=API KEY";
                     new GeoTask(MainActivity.this).execute(url);
 
 
